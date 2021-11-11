@@ -9,6 +9,10 @@ branding:
 
 links:
   - text: Getting Started
-    link: https://retype.com/guides/getting-started/
+    link: https://docs.greeet.io/getting-started/
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+
+integrations:
+  googleAnalytics:
+    id: UA-212583949-1
