@@ -3,38 +3,30 @@ label: Welcome
 icon: home
 ---
 
-# 欢迎使用 greeet！
+# Welcom greeet！
 
-greeet 帮助您轻松在现场管理有预约名单的来宾，您只需将整理好的 excel 名单导入至 app 即可开始使用。
+Greeet helps you easily checkin your guest and manage the list on site, you only need to import the excel guest list to the app to start.
 
-#### :closed_lock_with_key: 数据隐私安全
-和传统嘉宾名单/签到软件不同的是，greeet 并不依赖网络连接，您在不具备稳定联网条件的现场仍然可以使用全部功能。同时 greeet 也**不在我们的服务器保存任何您的嘉宾隐私信息**，活动结束后，您只需要下载 excel 即可进行后续的数据报告等工作。
+#### :closed_lock_with_key: privacy and data safty
 
-#### :art: 来宾互动画面定制
-greeet 最大的特色是允许您添加品牌特定的画面设计，例如签到台(kiosk)，欢迎大屏，问卷留资，甚至无线打印带有特殊设计的嘉宾铭牌(name badge)等等，在效率工具之外，围绕着来宾名单提供更多的互动形式，提高现场的数字化体验。
+Unlike traditional guest list / check-in software, Greeet does not rely on network connections, and you can still use all features without internet connection. At the same time, GREET also **does not save your guest list on the server**. You can download Excel to make subsequent data reports.
 
----
+#### :art: expereince screens
 
-## 主要概念
+We offer customization service to build branded iOS app for your event.
 
-#### 活动 Event
+So you can provide your guests with a personalized experience when they check in.
 
-一般是线下发生的、有一定时间期限的活动。比如婚礼、Gala 晚宴，沙龙讲座，零售店预约到店等等。
+:tada: screen templates are ready, and under development:
 
-#### 来宾名单 Guest List
+- [x] QR code checkin Kiosk
+- [ ] welcome screen
+- [ ] Table and seats
+- [ ] Signature collection
+- [ ] Photowall
 
-建议通过姓名、电话等多个字段来唯一识别一位来宾，避免重复信息的情况。每个名单系统暂时不做数量限制，但为了操作方便，建议控制在 1000 人以内。
+==- Get in touch
 
-#### 签到 Checkin
+# <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScF_aJQG1QWhQkGlnHBLUOlcT3K5MM-egeceAntukPDRGq8uA/viewform?embedded=true" width="512" height="512" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-系统内置的核心功能，更改来宾的签到状态。额外提供的类似状态包括：领取礼品。
-
-#### 定制画面
-
-在工作人员使用的管理功能之外，呈现给来宾的多种互动画面。目前可以定制的有：二维码签到画面。
-
-#### :tada: 定制画面模块不断扩充中
-
-座位图管理，搜索电话号码后四维签到台、签到欢迎大屏幕、照片签名墙、许愿树等等。如果您通过邮件[登记]()过，我们将在新版本发布时第一时间通知您！
-
----
+===

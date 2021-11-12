@@ -4,82 +4,89 @@ icon: rocket
 tags: [guide]
 ---
 
-## 创建您的第一个活动
+## Getting Started with your first event
 
-### 准备来宾名单
+### prepare guest list
 
-首先下载我们准备的来宾名单 Excel 模版：
-[!file 示例宾客名单下载](assets/sample-list.xlsx)
+You can download a sample guest list:
+[!file sample](assets/sample-list.xlsx)
 
-如果列的内容是少量重复选项，将可以在 app 内用于筛选，比如 group 列填写：
+Besides texts columns, when a column has repeated values, it will be imported as a selection list. Later you can filter using it. For example:
 
-```
-- VIP/媒体/普通/现场新增 (嘉宾分组)
-- 2021 年 10 月 28 日 14:00-15:00/2021 年 10 月 28 日 14:00-15:00/... (活动的场次安排)
-- 💎 / 💎💎 / 💎💎💎 (会员等级) (_文本内容也可以输入表情符号_)
-```
-
-如果您的活动尚未有来宾名单，但想现在尝试 greeet，也可直接使用示例名单新建测试活动。
+| Group   | Level  |
+| ------- | ------ |
+| VIP     | 💎     |
+| media   | 💎💎   |
+| on-site | 💎💎💎 |
 
 !!!warning
-仅第一张表格的内容才会被导入
+Only the first sheet will be imported.
 !!!
 !!!info
-准备导入的名单，需要保存在 app 同一设备中才能导入，建议利用云盘（比如 iCloud，OneDrive) 把电脑上编辑的 Excel 同步至设备中，使用过程也可以导出至云盘进行备份。或者使用 airdrop 将文件保存到设备（文件 app）中。
+The excel file to be imported needed to be on the same ios device with the app. We suggest using iCloud or OneDrive to sync the file (which serves the benefit of a backup location). Or you can airdrop to the files app on your device.
 !!!
 
-:bulb: 使用 OneDrive 云盘的额外好处是保存的 Excel 文件包括了历史版本信息，可以更精确的备份和找回。
+:bulb: OneDrive has the additional benefit of being able to save history versions of your excel files.
 
 ---
 
-### 导入名单创建活动
+### import the list
 
-点击从 Excel 新建活动，从本地或云盘中选择名单 Excel。
+click create event
 
-核对预览中名单是否为希望使用的数据。
+if files App (local or from cloud provider), find and select your excel file
 
-输入活动名称、活动地点、时间，点击新建。
-
-:bulb: 您也可以导入仅有第一行列名称的空白名单，仅在活动现场接受新注册来宾。
+:bulb: headers in the first column is required. if you leave following rows empty, you are creating a blank guest list for the event.
 
 ---
 
-### 管理名单
+### manage the list
 
-主界面的主要功能介绍如下：
+create new guest on site
 
-现场新增嘉宾
+filter the list
 
-筛选
+view live statistics
 
-计数统计
-
----
-
-### 激活活动
-
-由于我们并不保存控制您的数据，您在任何时间都可以编辑除了签到状态之外的任何信息。在付费激活活动之后，便可以在活动现场进行签到，包括使用签到台等定制画面。建议您根据活动持续时常，选择合适的激活套餐即可。
+:bulb: you may edit your list without paid plan, with the exception that check-in status are not editable.
 
 ---
 
-### 活动现场签到
+### pay to activate the event
 
-无论在列表界面，或是定制画面中扫码签到，每位嘉宾都会记录多次签到，并在列表中显示签到次数。在编辑窗口的历史记录中，可以查看每次签到的具体时间。
-
-点击菜单中重置签到将清空签到信息。
+after paying, you can checkin your guests. You may choose to pay and activate just one day before your event.
 
 ---
 
-### 活动结束后数据导出
+### at the event
 
-点击导出按钮，选择导出位置
+checkin your guests in the list
 
-导出的 Excel 将增加几个内部数据列：
+checkin your guests by scanning QR code
+
+multiple checkin is logged in the history section in the guest detail view
+
+from guest menu, you can reset checkin status of the guest
+
+---
+
+### post event
+
+export the list
+
+additional columns will be exported:
+
+| gift  | arrived_at                                                  |
+| ----- | ----------------------------------------------------------- |
+| TRUE  | 2021-09-26T19:05:37.451+00:00,2021-09-26T19:06:02.784+00:00 |
+| FALSE |                                                             |
+|       | 2021-09-26T19:05:37.451+00:00                               |
 
 ```
-gift - 是否领取礼物的标记
-arrived_at - 逗号分割的每次签到时间，如果是空白则代表没有签到
+gift - whether guest has received a gift
+arrived_at - timestamps of multiple checkins, seperated by comma
 ```
 
-:bulb: 活动中也可以临时导出，如果导出保存到 OneDrive，也可利用 Office 文档历史功能，随时回复查看之前的文件版本。
-:bulb: 导出按钮下方提示您上一次导出的时间，提醒您应该经常保存备份。
+:bulb: you can export anytime during the event, as means of backup, or import the up to date list using another device. (note: data are not synced in multiple devices)
+
+
